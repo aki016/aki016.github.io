@@ -1,0 +1,183 @@
+header{
+    background-image: url("https://www.nanchiku.co.jp/wp-content/themes/custom-themes/img/farm/farm01.jpg");
+    background-size: cover;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.header-box{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(185, 159, 8, 0.788);
+    position: fixed;
+    z-index: 10;
+}
+
+.header-title{
+    margin-left: 50px;
+    color: rgb(19, 138, 19);
+    float: left;
+}
+
+.header-list{
+    list-style: none;
+    float:right;
+    margin-right: 20px;
+}
+
+.main-line{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top:100px;
+}
+
+.line{
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(67,89, 90, 0.6);
+}
+
+.line>h1{
+    color: gold;
+    display: inline-block;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-indent: 10px;
+    letter-spacing: 20px;
+    line-height: 100px;
+}
+
+.main-span{
+    color: gold;
+}
+
+.login{
+    display: inline-block;
+    height: 45px;
+    width: 130px;
+    background-color: seashell;
+    border-radius: 10px;
+    border:2px solid skyblue;
+    margin: 10px;
+}
+.login:hover{
+    background-color: #87ceeb;
+    transition: all 0.5s;
+}
+
+.signin{
+    display: inline-block;
+    height: 45px;
+    width: 130px;
+    background-color: seashell;
+    border-radius: 10px;
+    border:2px solid rgb(15, 218, 83);
+    margin: 10px;
+}
+.signin:hover{
+    background-color: rgb(15, 218, 83);
+    transition: all 0.5s;
+}
+
+.main-link{
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.works-box{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.works-k{
+    border-radius: 30px;
+    background-color: rgba(214, 62, 42, 0.4);
+    width: 300px;
+    height: 330px;
+    font-size: 20px;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+
+.works-h{
+    border-radius: 30px;
+    background-color: rgba(29, 212, 105, 0.4);
+    width: 300px;
+    height: 330px;
+    font-size: 20px;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+
+.btn-k{
+    width: 100px;
+    height:55px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 10px 10px gray;
+    cursor: pointer;
+}
+
+.btn-k:active{
+    background-color: chocolate;
+    font-size: 30px;
+    box-shadow: none;
+    position: relative;
+    top:5px;
+    left:5px;
+}
+
+.btn-h{
+    width: 100px;
+    height:55px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 10px 10px gray;
+    cursor: pointer;
+}
+
+.btn-h:active{
+    background-color: rgb(30, 168, 210);
+    font-size: 30px;
+    box-shadow: none;
+    position: relative;
+    top:5px;
+    left:5px;
+}
+
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height:150px;
+    background-color:rgba(67, 99, 45, 0.9);
+}
+
+.footer-box{
+    display: flex;
+
+}
+
+.footer-title{
+    font-size: 45px;
+    color: wheat;
+    font-family: monospace;
+    font-weight: bolder;
+    line-height: center;
+    margin-left: 100px;
+    flex-basis:50%;
+}
+
+.footer-list{
+    margin: 35px 20px 20px 20px;
+    list-style: none;
+    flex-basis: 150px;
+}
